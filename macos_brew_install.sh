@@ -6,6 +6,10 @@ fi
 
 brew tap caskroom/cask
 
+brew install git
+brew install hg
+brew install wget
+
 brew cask install google-chrome
 brew cask install gpgtools
 brew cask install iterm2
