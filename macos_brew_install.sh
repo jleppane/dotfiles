@@ -6,8 +6,14 @@ fi
 
 brew tap caskroom/cask
 
+brew install coreutils
+brew install findutils
+brew install gawk
 brew install git
+brew install gnu-sed
+brew install grep
 brew install hg
+brew install shellcheck
 brew install wget
 
 brew cask install google-chrome
