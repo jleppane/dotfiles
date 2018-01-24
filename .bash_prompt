@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+function _PS1_directory()
+{
+  echo -n "$PWD" | awk -F "/" '{ if (NF > 3) print "../" $(NF-1) "/" $(NF); else print $0 }'
+}
+
+function _PS1_branch()
+{
+  git branch &> /dev/null && _PS1_parse_git_branch && return
+  hg branch  &> /dev/null && _PS1_parse_hg_branch  && return
+}
+
+function _PS1_parse_git_branch()
+{
+  if [[ $(git branch) ]] ; then
+    local branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
+  else
+    local branch="master"
+  fi
+
+  echo -n "($branch) "
+}
+
+function _PS1_parse_hg_branch()
+{
+  local branch=$(hg branch | awk '{ print $1 }')
+  echo "($branch) "
+}
+
+PS1='\[\033[00m\]\u@\h: \[\033[34m\]$(_PS1_directory) \[\033[31m\]$(_PS1_branch)\[\033[00m\]\$ '
