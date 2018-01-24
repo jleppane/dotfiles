@@ -14,6 +14,7 @@ brew install gnu-sed
 brew install grep
 brew install hg
 brew install shellcheck
+brew install terminal-notifier
 brew install wget
 
 brew cask install google-chrome
