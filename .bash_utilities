@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+### macOS specific #################################################################################
+
+if [[ "$OSTYPE" == "darwin"* ]] ; then
+
+  function copy-without-trailing-newline()
+  {
+    tr -d "\n" | pbcopy
+  }
+
+  function copy-working-directory()
+  {
+    echo "$PWD" | copy-without-trailing-newline
+  }
+
+  function when-done()
+  {
+    local command="$*"
+    $command
+    terminal-notifier -title "Terminal: $command" -message "rc: $?"
+  }
+
+  # shortcuts
+  alias c="copy-without-trailing-newline"
+  alias cwd="copy-working-directory"
+
+fi
