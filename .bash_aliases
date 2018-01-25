@@ -18,7 +18,13 @@ if [[ "$OSTYPE" == "linux"* ]] ; then
 
 fi
 
+alias df="df -h"
 alias ls="ls --color=auto"
+
+alias cp="cp -i"
+alias ln="ln -i"
+alias mv="mv -i"
+alias rm="rm -Id"
 
 
 ### macOS specific aliases #########################################################################
@@ -40,3 +46,13 @@ fi
 
 alias li='ls -l --group-directories-first --time-style=+"%Y-%m-%d %H:%M:%S"' # 1991-08-25 20:57:08
 alias ll='ls -l --group-directories-first --time-style=+"%Y %b %d %H:%M:%S"' # 1991 Aug 25 20:57:08
+
+
+### miscellaneous aliases ##########################################################################
+
+alias h="history"
+alias r="source ~/.bashrc"
+
+alias bn="basename"
+alias rp="realpath"
+alias tf="tail -f"
