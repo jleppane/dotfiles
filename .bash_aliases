@@ -21,6 +21,21 @@ fi
 alias ls="ls --color=auto"
 
 
+### macOS specific aliases #########################################################################
+
+if [[ "$OSTYPE" == "darwin"* ]] ; then
+
+  alias chrome="open -a 'google chrome'"
+  alias finder="open -a Finder"
+  alias preview="open -a preview"
+  alias vivaldi="open -a vivaldi"
+
+  alias s="subl -a"
+  alias v="vagrant"
+
+fi
+
+
 ### `ls` aliases ###################################################################################
 
 alias li='ls -l --group-directories-first --time-style=+"%Y-%m-%d %H:%M:%S"' # 1991-08-25 20:57:08
