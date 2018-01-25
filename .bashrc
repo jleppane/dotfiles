@@ -38,6 +38,11 @@ shopt -s cdspell
 shopt -s extglob
 
 
+### shell color scheme #############################################################################
+
+bash "$HOME/.config/base16-shell/scripts/base16-tomorrow-night.sh"
+
+
 ### history ########################################################################################
 
 HISTFILE="$HOME/.bash_history"
