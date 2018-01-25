@@ -39,3 +39,8 @@ function generate-password()
 {
   base64 /dev/random | tr -cd "[:alnum:]" | fold -w "${1:-20}" | head -1
 }
+
+function sum-lines()
+{
+  paste -s -d '+' | bc
+}
