@@ -32,6 +32,7 @@ alias rm="rm -Id"
 if [[ "$OSTYPE" == "darwin"* ]] ; then
 
   alias chrome="open -a 'google chrome'"
+  alias eclipse="open -a eclipse"
   alias finder="open -a Finder"
   alias preview="open -a preview"
   alias vivaldi="open -a vivaldi"
