@@ -21,9 +21,8 @@ fi
 
 # install or update base16 color schemes
 if [ ! -d "$HOME/Library/Application Support/Sublime Text 3/Packages/Base16" ] ; then
-  cd "$HOME/Library/Application Support/Sublime Text 3/Packages"
-  git clone git://github.com/chriskempson/base16-textmate.git Base16
+  git clone "git://github.com/chriskempson/base16-textmate.git" \
+    "$HOME/Library/Application Support/Sublime Text 3/Packages/Base16"
 else
-  cd "$HOME/Library/Application Support/Sublime Text 3/Packages/Base16"
-  git pull
+  git -C "$HOME/Library/Application Support/Sublime Text 3/Packages/Base16" pull
 fi
