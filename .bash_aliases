@@ -51,6 +51,7 @@ alias ll='ls -l --group-directories-first --time-style=+"%Y %b %d %H:%M:%S"' # 1
 
 ### miscellaneous aliases ##########################################################################
 
+alias a="ack"
 alias h="history"
 alias r="source ~/.bashrc"
 
