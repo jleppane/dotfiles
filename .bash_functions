@@ -70,3 +70,55 @@ function lls()
 {
   ll "$@" --color=always | grep "^l" --color=never
 }
+
+
+### `sed` (and similar like functionality) functions ###############################################
+
+function add-double-quotes()
+{
+  sed -e 's/^/"/g' -e 's/$/"/g'
+}
+
+function add-single-quotes()
+{
+  sed -e "s/^/'/g" -e "s/$/'/g"
+}
+
+function flat()
+{
+  paste -s -d ' '
+}
+
+function unflat()
+{
+  tr '[:space:]' '\n'
+}
+
+function remove-leading-whitespace()
+{
+  sed 's/^[[:space:]]*//g'
+}
+
+function remove-trailing-whitespace()
+{
+  sed 's/[[:space:]]*$//g'
+}
+
+function trim()
+{
+  remove-leading-whitespace | remove-trailing-whitespace
+}
+
+function squeeze()
+{
+  sed 's/[[:space:]]\+/ /g'
+}
+
+function delete-empty-lines()
+{
+  sed '/^$/d'
+}
+
+# shortcuts
+alias dq="add-double-quotes"
+alias sq="add-single-quotes"
