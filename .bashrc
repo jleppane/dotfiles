@@ -57,7 +57,7 @@ shopt -s histappend
 PROMPT_COMMAND="history -a; history -c; history -r"
 
 
-### include .bash_prompt ###########################################################################
+### include .bash_aliases, .bash_functions, .bash_prompt and .bash_utilities #######################
 
 [ -f "$HOME/.bash_aliases" ]   && . "$HOME/.bash_aliases"
 [ -f "$HOME/.bash_functions" ] && . "$HOME/.bash_functions"
