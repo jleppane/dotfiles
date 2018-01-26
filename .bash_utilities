@@ -43,7 +43,7 @@ function generate-password()
 function generate-ssh-key()
 {
   local timestamp="$(date -u +'%Y-%m-%dT%H:%M:%SZ')" # 1991-08-25T20:57:08Z
-  local filename="$(whoami)_$(echo $timestamp | tr -cd '[:alnum:]')"
+  local filename="id_rsa_$(whoami)_$(echo $timestamp | tr -cd '[:alnum:]')"
   local comment="$(whoami) $timestamp"
 
   ssh-keygen -t rsa -b 4096 -a 100 -o -f "${1:-$filename}" -C "${2:-$comment}"
