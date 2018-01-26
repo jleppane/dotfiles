@@ -23,6 +23,11 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
   alias fgrep="gfgrep"
   alias grep="ggrep"
 
+  # add private SSH keys to authentication agent if agent has no identities
+  if ! ssh-add -l &> /dev/null ; then
+    for key in ~/.ssh/*.pub ; do ssh-add $(echo $key | sed 's/.pub//') ; done
+  fi
+
 fi
 
 
