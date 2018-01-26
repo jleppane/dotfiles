@@ -40,6 +40,15 @@ function generate-password()
   base64 /dev/random | tr -cd "[:alnum:]" | fold -w "${1:-20}" | head -1
 }
 
+function generate-ssh-key()
+{
+  local timestamp="$(date -u +'%Y-%m-%dT%H:%M:%SZ')" # 1991-08-25T20:57:08Z
+  local filename="$(whoami)_$(echo $timestamp | tr -cd '[:alnum:]')"
+  local comment="$(whoami) $timestamp"
+
+  ssh-keygen -t rsa -b 4096 -a 100 -o -f "${1:-$filename}" -C "${2:-$comment}"
+}
+
 function sum-lines()
 {
   paste -s -d '+' | bc
