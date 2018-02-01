@@ -31,5 +31,6 @@ brew cask install sublime-text
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vivaldi
+brew cask install wireshark
 
 brew cleanup
