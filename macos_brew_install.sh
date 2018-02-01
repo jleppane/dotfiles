@@ -17,6 +17,7 @@ brew install hg
 brew install packer
 brew install shellcheck
 brew install terminal-notifier
+brew install thefuck
 brew install watch
 brew install wget
 

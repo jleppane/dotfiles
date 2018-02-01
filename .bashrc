@@ -62,6 +62,13 @@ shopt -s histappend
 PROMPT_COMMAND="history -a; history -c; history -r"
 
 
+### `thefuck` alias evaluation #####################################################################
+
+if command -v thefuck > /dev/null ; then
+  eval "$(thefuck --alias)"
+fi
+
+
 ### include .bash_aliases, .bash_functions, .bash_prompt and .bash_utilities #######################
 
 [ -f "$HOME/.bash_aliases" ]   && . "$HOME/.bash_aliases"
