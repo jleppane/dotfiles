@@ -27,7 +27,6 @@ brew cask install google-chrome
 brew cask install gpgtools
 brew cask install iterm2
 brew cask install java
-brew cask install libreoffice-still
 brew cask install sublime-text
 brew cask install vagrant
 brew cask install virtualbox
