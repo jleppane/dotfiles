@@ -4,4 +4,4 @@
 ln -sf "$DOTFILES_PATH/.vimrc" "$HOME/.vimrc"
 
 # install plugins
-. "$DOTFILES_ROOT/vim_install_plugins.sh"
+. "$SCRIPT_PATH/vim_install_plugins.sh"
