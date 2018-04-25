@@ -24,7 +24,7 @@ cat <<- EOF > "$HOME/Library/VirtualBox/VirtualBox.xml"
 	        <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
 	      </DHCPServers>
 	    </NetserviceRegistry>
-	    <SystemProperties defaultMachineFolder="/Users/$(whoami)/.VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" exclusiveHwVirt="false"/>
+	    <SystemProperties defaultMachineFolder="$HOME/.VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" exclusiveHwVirt="false"/>
 	    <USBDeviceFilters/>
 	  </Global>
 	</VirtualBox>
