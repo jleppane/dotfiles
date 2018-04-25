@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# create directory
-mkdir "$HOME/.config"
+mkdir -p "$HOME/.config"
 
 # install or update base16 color schemes
 if [ ! -d "$HOME/.config/base16-shell" ] ; then
