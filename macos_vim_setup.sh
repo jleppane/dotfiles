@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # create symbolic link
-ln -sf "$HOME/Development/personal/dotfiles/.vimrc" "$HOME/.vimrc"
+ln -sf "$DOTFILES_PATH/.vimrc" "$HOME/.vimrc"
 
 # install plugins
-. "$HOME/Development/personal/dotfiles/vim_install_plugins.sh"
+. "$DOTFILES_ROOT/vim_install_plugins.sh"

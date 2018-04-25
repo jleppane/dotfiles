@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 # create symbolic links
-ln -sf "$HOME/Development/personal/dotfiles/.gitconfig" "$HOME/.gitconfig"
-ln -sf "$HOME/Development/personal/dotfiles/.hgrc"      "$HOME/.hgrc"
+ln -sf "$DOTFILES_PATH/.gitconfig" "$HOME/.gitconfig"
+ln -sf "$DOTFILES_PATH/.hgrc"      "$HOME/.hgrc"
