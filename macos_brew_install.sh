@@ -23,6 +23,7 @@ brew install wget
 brew install yle-dl
 brew install youtube-dl
 
+brew cask install coconutbattery
 brew cask install eclipse-ide
 brew cask install gimp
 brew cask install google-chrome
