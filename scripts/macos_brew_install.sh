@@ -23,6 +23,7 @@ brew install wget
 brew install yle-dl
 brew install youtube-dl
 
+brew cask install cheatsheet
 brew cask install coconutbattery
 brew cask install eclipse-ide
 brew cask install gimp
@@ -31,6 +32,7 @@ brew cask install gpg-suite
 brew cask install iterm2
 brew cask install java
 brew cask install libreoffice
+brew cask install spotify
 brew cask install sublime-text
 brew cask install vagrant
 brew cask install virtualbox
