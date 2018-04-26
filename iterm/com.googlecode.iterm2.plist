@@ -563,9 +563,9 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 122 796 473 0 0 1440 877 </string>
+	<string>269 122 796 473 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>155 93 570 452 0 0 1440 877 </string>
+	<string>102 349 570 452 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1244,15 +1244,15 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/test1</string>
+			<string></string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>940D55EC-0481-4DE4-BBDE-624F955F50A0</string>
+	<string>575FEAF4-FA45-47A4-BA15-6C5D4825E0BE</string>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>538440379.54807901</real>
+	<real>546436758.37125504</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1287,7 +1287,9 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jleppane/Development/personal/dotfiles/iterm</string>
+	<string>/Users/jleppane/Development/jleppane/dotfiles/iterm</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1295,11 +1297,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=34</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=16</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-23T22:46:49Z</date>
+	<date>2018-04-26T12:04:40Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TabStyle</key>
@@ -1307,6 +1309,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 </dict>
 </plist>
