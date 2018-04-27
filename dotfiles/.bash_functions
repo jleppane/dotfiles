@@ -119,6 +119,11 @@ function delete-empty-lines()
   sed '/^$/d'
 }
 
+function pick-line()
+{
+  sed -n "$@"p
+}
+
 # shortcuts
 alias dq="add-double-quotes"
 alias sq="add-single-quotes"
