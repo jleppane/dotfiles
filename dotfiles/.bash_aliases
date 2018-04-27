@@ -56,5 +56,7 @@ alias h="history"
 alias r=". $HOME/.bashrc"
 
 alias bn="basename"
+alias dn="dirname"
 alias rp="realpath"
+alias sc="shellcheck"
 alias tf="tail -f"
