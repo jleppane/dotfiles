@@ -62,6 +62,13 @@ shopt -s histappend
 PROMPT_COMMAND="history -a; history -c; history -r"
 
 
+### bash completion ################################################################################
+
+if [ -f /usr/local/etc/bash_completion ] ; then
+  . /usr/local/etc/bash_completion
+fi
+
+
 ### `thefuck` alias evaluation #####################################################################
 
 if command -v thefuck > /dev/null ; then

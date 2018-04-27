@@ -7,6 +7,7 @@ fi
 brew tap caskroom/cask
 
 brew install ack
+brew install bash-completion
 brew install coreutils
 brew install findutils
 brew install gawk
@@ -15,9 +16,11 @@ brew install gnu-sed
 brew install grep
 brew install hg
 brew install packer
+brew install packer-completion
 brew install shellcheck
 brew install terminal-notifier
 brew install thefuck
+brew install vagrant-completion
 brew install watch
 brew install wget
 brew install yle-dl
