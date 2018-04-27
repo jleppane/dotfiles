@@ -28,4 +28,12 @@ function _PS1_parse_hg_branch()
   echo "($branch) "
 }
 
-PS1='\[\033[00m\]\u@\h: \[\033[34m\]$(_PS1_directory) \[\033[31m\]$(_PS1_branch)\[\033[00m\]\$ '
+function _PS1_jobs()
+{
+  local jobs=$(jobs | grep -vc "Done")
+  if [ "$jobs" -ne 0 ] ; then
+    echo -n "[$jobs] "
+  fi
+}
+
+PS1='\[\033[00m\]\u@\h: \[\033[34m\]$(_PS1_directory) \[\033[31m\]$(_PS1_branch)\[\033[33m\]$(_PS1_jobs)\[\033[00m\]\$ '
