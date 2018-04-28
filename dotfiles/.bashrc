@@ -53,6 +53,13 @@ bash "$HOME/.config/base16-shell/scripts/base16-tomorrow-night.sh"
 HISTFILE="$HOME/.bash_history"
 HISTTIMEFORMAT="%Y-%m-%d %H:%H:%S " # 1991-08-25 20:57:08
 
+HISTCONTROL='ignorespace:ignoredups'
+HISTIGNORE='?:??:???:clear*:exit*'
+
+# unlimited bash history
+HISTSIZE=
+HISTFILESIZE=
+
 # save all lines of a multiple-line command in the same history entry
 shopt -s cmdhist
 
