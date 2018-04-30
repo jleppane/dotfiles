@@ -42,6 +42,11 @@ export LC_NUMERIC="en_US.UTF-8"
 export LC_TIME="en_US.UTF-8"
 
 
+### miscellaneous environment variables ############################################################
+
+export HTOPRC="$HOME/.htoprc"
+
+
 ### shell options ##################################################################################
 
 # check the window size after each command
