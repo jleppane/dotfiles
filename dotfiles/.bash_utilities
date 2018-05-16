@@ -21,6 +21,11 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
     terminal-notifier -title "Terminal: $command" -message "rc: $?"
   }
 
+  function youtube-mp3()
+  {
+    youtube-dl --extract-audio --audio-format mp3 "$@"
+  }
+
   # shortcuts
   alias c="copy-without-trailing-newline"
   alias cwd="copy-working-directory"

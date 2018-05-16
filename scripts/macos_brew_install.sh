@@ -16,6 +16,7 @@ brew install gnu-sed
 brew install grep
 brew install hg
 brew install htop
+brew install libav # youtube-mp3
 brew install packer
 brew install packer-completion
 brew install shellcheck
