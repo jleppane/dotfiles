@@ -91,6 +91,7 @@
 		".git",
 		".hg",
 		".svn",
+		".vagrant",
 		"CVS"
 	],
 	"font_face": "",
