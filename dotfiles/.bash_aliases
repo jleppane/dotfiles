@@ -38,7 +38,6 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
   alias vivaldi="open -a vivaldi"
 
   alias s="subl -a"
-  alias v="vagrant"
 
 fi
 
