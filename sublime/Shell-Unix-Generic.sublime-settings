@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
+		".bash_colors",
 		".bash_prompt",
 		".bash_utilities"
 	]
