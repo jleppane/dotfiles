@@ -2,7 +2,8 @@
 
 function _PS1_directory()
 {
-  echo -n "$PWD" | awk -F "/" '{ if (NF > 3) print "../" $(NF-1) "/" $(NF); else print $0 }'
+  local directory=$(echo -n "$PWD" | awk -F "/" '{ if (NF > 3) print "../" $(NF-1) "/" $(NF); else print $0 }')
+  echo "${BLUE}$directory${NORMAL}"
 }
 
 function _PS1_branch()
@@ -29,21 +30,21 @@ function _PS1_is_hg_repository()
 function _PS1_parse_git_branch()
 {
   local branch=$(git rev-parse --abbrev-ref HEAD)
-  echo -n "($branch) "
+  echo -n "${RED}($branch)${NORMAL} "
 }
 
 function _PS1_parse_hg_branch()
 {
   local branch=$(hg branch | awk '{ print $1 }')
-  echo "($branch) "
+  echo "${PURPLE}($branch)${NORMAL} "
 }
 
 function _PS1_jobs()
 {
   local jobs=$(jobs | grep -vc "Done")
   if [ "$jobs" -ne 0 ] ; then
-    echo -n "[$jobs] "
+    echo -n "${YELLOW}[$jobs]${NORMAL} "
   fi
 }
 
-PS1='\[\033[00m\]\u@\h: \[\033[34m\]$(_PS1_directory) \[\033[31m\]$(_PS1_branch)\[\033[33m\]$(_PS1_jobs)\[\033[00m\]\$ '
+PS1='${NORMAL}\u@\h: $(_PS1_directory) $(_PS1_branch)$(_PS1_jobs)$ '
