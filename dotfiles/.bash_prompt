@@ -9,7 +9,7 @@ function _PS1_directory()
 function _PS1_branch()
 {
   git branch &> /dev/null && _PS1_parse_git_branch && return
-  _PS1_is_hg_repository && _PS1_parse_hg_branch && return
+  _PS1_is_hg_repository   && _PS1_parse_hg_branch  && return
 }
 
 function _PS1_is_hg_repository()
