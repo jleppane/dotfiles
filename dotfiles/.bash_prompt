@@ -8,17 +8,27 @@ function _PS1_directory()
 function _PS1_branch()
 {
   git branch &> /dev/null && _PS1_parse_git_branch && return
-  hg branch  &> /dev/null && _PS1_parse_hg_branch  && return
+  _PS1_is_hg_repository && _PS1_parse_hg_branch && return
+}
+
+function _PS1_is_hg_repository()
+{
+  local directory="$PWD"
+
+  while [ "$directory" != "/" ] ; do
+    if [ -d "$directory/.hg" ] ; then
+      return 0
+    else
+      directory=$(dirname "$directory")
+    fi
+  done
+
+  return 1
 }
 
 function _PS1_parse_git_branch()
 {
-  if [[ $(git branch) ]] ; then
-    local branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
-  else
-    local branch="master"
-  fi
-
+  local branch=$(git rev-parse --abbrev-ref HEAD)
   echo -n "($branch) "
 }
 
