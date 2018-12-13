@@ -29,7 +29,12 @@ function _PS1_is_hg_repository()
 
 function _PS1_parse_git_branch()
 {
-  local branch=$(git rev-parse --abbrev-ref HEAD)
+  if [[ $(git branch) ]] ; then
+    local branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
+  else
+    local branch="master"
+  fi
+
   echo -n "${RED}($branch)${NORMAL} "
 }
 
