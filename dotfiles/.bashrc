@@ -70,7 +70,7 @@ HISTFILE="$HOME/.bash_history"
 HISTTIMEFORMAT="%Y-%m-%d %H:%H:%S " # 1991-08-25 20:57:08
 
 HISTCONTROL='ignorespace:ignoredups'
-HISTIGNORE='?:??:???:cwd*:pwd*:date*:clear*:exit*'
+HISTIGNORE='?:??:???:cwd*:pwd*:date*:clear*:exit*:googler*'
 
 # unlimited bash history
 HISTSIZE=

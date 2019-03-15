@@ -13,6 +13,7 @@ brew install findutils
 brew install gawk
 brew install git
 brew install gnu-sed
+brew install googler
 brew install grep
 brew install hg
 brew install htop
