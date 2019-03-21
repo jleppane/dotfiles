@@ -1,3 +1,6 @@
 [user]
 name = Juhani Leppänen
 email = juhani.leppanen@protonmail.com
+
+[core]
+excludesfile = /Users/jleppane/.gitignore
