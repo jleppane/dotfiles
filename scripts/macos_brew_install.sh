@@ -33,6 +33,7 @@ brew cask install cheatsheet
 brew cask install coconutbattery
 brew cask install eclipse-ide
 brew cask install gimp
+brew cask install gitup
 brew cask install google-chrome
 brew cask install gpg-suite
 brew cask install iterm2
