@@ -25,6 +25,7 @@ brew install terminal-notifier
 brew install thefuck
 brew install vagrant-completion
 brew install watch
+brew install watchman
 brew install wget
 brew install yle-dl
 brew install youtube-dl
