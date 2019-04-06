@@ -67,6 +67,18 @@ function lld()
   ll "$@" --color=always | grep "^d" --color=never
 }
 
+# `li` and `ll` for files
+
+function lif()
+{
+  li "$@" --color=always | grep "^-" --color=never
+}
+
+function llf()
+{
+  ll "$@" --color=always | grep "^-" --color=never
+}
+
 # `li` and `ll` for symbolic links
 
 function lis()
