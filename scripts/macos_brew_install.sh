@@ -17,6 +17,7 @@ brew install googler
 brew install grep
 brew install hg
 brew install htop
+brew install jq
 brew install libav # youtube-mp3
 brew install packer
 brew install packer-completion
