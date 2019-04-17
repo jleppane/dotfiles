@@ -23,7 +23,7 @@ function up()
 
 function date()
 {
-  $(which date) --iso-8601="${1:-date}"
+  $(type -P date) --iso-8601="${1:-date}"
 }
 
 
@@ -148,7 +148,7 @@ function delete-empty-lines()
 
 function pick-line()
 {
-  sed -n "$@"p
+  sed -n "$*"p
 }
 
 # shortcuts
