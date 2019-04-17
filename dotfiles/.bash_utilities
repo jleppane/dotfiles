@@ -47,7 +47,7 @@ function generate-password()
 
 function generate-ssh-key()
 {
-  local timestamp="$(date -u +'%Y-%m-%dT%H:%M:%SZ')" # 1991-08-25T20:57:08Z
+  local timestamp="$($(which date) -u +'%Y-%m-%dT%H:%M:%SZ')" # 1991-08-25T20:57:08Z
   local filename="id_rsa_$(whoami)_$(echo $timestamp | tr -cd '[:alnum:]')"
   local comment="$(whoami) $timestamp"
 
