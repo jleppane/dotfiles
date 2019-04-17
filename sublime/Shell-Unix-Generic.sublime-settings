@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		".bash_colors",
+		".bash_development",
 		".bash_prompt",
 		".bash_utilities"
 	]

@@ -101,8 +101,9 @@ fi
 
 ### include .bash_* files ##########################################################################
 
-[ -f "$HOME/.bash_aliases" ]   && . "$HOME/.bash_aliases"
-[ -f "$HOME/.bash_colors" ]    && . "$HOME/.bash_colors"
-[ -f "$HOME/.bash_functions" ] && . "$HOME/.bash_functions"
-[ -f "$HOME/.bash_prompt" ]    && . "$HOME/.bash_prompt"
-[ -f "$HOME/.bash_utilities" ] && . "$HOME/.bash_utilities"
+[ -f "$HOME/.bash_aliases" ]     && . "$HOME/.bash_aliases"
+[ -f "$HOME/.bash_colors" ]      && . "$HOME/.bash_colors"
+[ -f "$HOME/.bash_development" ] && . "$HOME/.bash_development"
+[ -f "$HOME/.bash_functions" ]   && . "$HOME/.bash_functions"
+[ -f "$HOME/.bash_prompt" ]      && . "$HOME/.bash_prompt"
+[ -f "$HOME/.bash_utilities" ]   && . "$HOME/.bash_utilities"
