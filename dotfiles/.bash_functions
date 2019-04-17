@@ -4,11 +4,18 @@
 
 function up()
 {
+  local up="$PWD"
+
   for (( i=0 ; i < ${1:-1} ; i++ )) ; do
-    local up="$up../"
+    up="$up/.."
   done
 
-  cd "$up"
+  while [ ! -d "$PWD" ] ; do
+    cd .. &> /dev/null
+    up="$PWD"
+  done
+
+  cd "$up" || exit
 }
 
 
