@@ -92,7 +92,8 @@
 		".hg",
 		".svn",
 		".vagrant",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_face": "",
 	"font_options":

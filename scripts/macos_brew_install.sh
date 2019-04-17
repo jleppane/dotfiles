@@ -9,18 +9,23 @@ brew tap caskroom/cask
 brew install ack
 brew install bash-completion
 brew install coreutils
+brew install docker
 brew install findutils
 brew install gawk
 brew install git
 brew install gnu-sed
+brew install golang
 brew install googler
 brew install grep
 brew install hg
 brew install htop
 brew install jq
+brew install jsonlint
+brew install node
 brew install libav # youtube-mp3
 brew install packer
 brew install packer-completion
+brew install protobuf
 brew install shellcheck
 brew install terminal-notifier
 brew install thefuck
@@ -28,6 +33,7 @@ brew install vagrant-completion
 brew install watch
 brew install watchman
 brew install wget
+brew install yamllint
 brew install yle-dl
 brew install youtube-dl
 
