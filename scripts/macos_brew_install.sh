@@ -37,7 +37,6 @@ brew cask install eclipse-ide
 brew cask install gimp
 brew cask install gitup
 brew cask install google-chrome
-brew cask install gpg-suite
 brew cask install iterm2
 brew cask install java
 brew cask install libreoffice
