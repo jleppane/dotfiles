@@ -12,3 +12,7 @@ Open Terminal and run:
 
     git clone ssh://git@github.com/jleppane/dotfiles.git "$HOME/Development/jleppane/dotfiles" && \
       "$HOME/Development/jleppane/dotfiles/scripts/install.sh"
+
+## Browser extensions
+
+- [LastPass: Free Password Manager](https://chrome.google.com/webstore/search/lastpass)
