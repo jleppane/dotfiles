@@ -43,6 +43,7 @@ brew cask install java
 brew cask install libreoffice
 brew cask install postman
 brew cask install sequel-pro
+brew cask install slack
 brew cask install spotify
 brew cask install sublime-text
 brew cask install vagrant
