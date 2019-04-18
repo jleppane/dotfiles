@@ -37,6 +37,7 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
   alias preview="open -a preview"
   alias vivaldi="open -a vivaldi"
 
+  alias md="macdown"
   alias s="subl -a"
 
 fi

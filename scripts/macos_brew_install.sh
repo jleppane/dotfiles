@@ -47,6 +47,7 @@ brew cask install google-cloud-sdk
 brew cask install iterm2
 brew cask install java
 brew cask install libreoffice
+brew cask install macdown
 brew cask install postman
 brew cask install sequel-pro
 brew cask install slack
