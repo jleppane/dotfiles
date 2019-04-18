@@ -54,6 +54,24 @@ function generate-ssh-key()
   ssh-keygen -t rsa -b 4096 -a 100 -o -f "${1:-$filename}" -C "${2:-$comment}"
 }
 
+function lint()
+{
+  if [ -f "$1" ] ; then
+    case "$1" in
+      *.bash_history)       echo "file extension not supported"               ;;
+      *.bash_*)             shellcheck                                "$1"    ;;
+      *.bashrc)             shellcheck                                "$1"    ;;
+      *.json)               jsonlint                                  "$1"    ;;
+      *.sh)                 shellcheck                                "$1"    ;;
+      *.yaml)               yamllint                                  "$1"    ;;
+      *.yml)                yamllint                                  "$1"    ;;
+      *)                    echo "file extension not supported"               ;;
+    esac
+  else
+    echo "not regular file"
+  fi
+}
+
 function sum-lines()
 {
   paste -s -d '+' | bc
