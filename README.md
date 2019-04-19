@@ -8,10 +8,13 @@ My personal dotfiles, utilities, settings and install scripts for macOS Mojave.
 
 ## Usage
 
-Open Terminal and run:
+```
+git clone ssh://git@github.com/jleppane/dotfiles.git "$HOME/Development/jleppane/dotfiles"
+```
 
-    git clone ssh://git@github.com/jleppane/dotfiles.git "$HOME/Development/jleppane/dotfiles" && \
-      "$HOME/Development/jleppane/dotfiles/scripts/install.sh"
+```
+"$HOME/Development/jleppane/dotfiles/scripts/install.sh"
+```
 
 ## Browser extensions
 
