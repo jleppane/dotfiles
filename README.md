@@ -1,6 +1,6 @@
 # jleppane/dotfiles
 
-My personal dotfiles and install scripts for macOS.
+My personal dotfiles, utilities, settings and install scripts for macOS Mojave.
 
 ## Dependencies
 
@@ -16,3 +16,4 @@ Open Terminal and run:
 ## Browser extensions
 
 - [LastPass: Free Password Manager](https://chrome.google.com/webstore/search/lastpass)
+- [uBlock Origin](https://chrome.google.com/webstore/search/ublock)
