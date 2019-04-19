@@ -40,6 +40,7 @@ brew install youtube-dl
 
 brew cask install cheatsheet
 brew cask install coconutbattery
+brew cask install docker
 brew cask install eclipse-ide
 brew cask install gimp
 brew cask install gitup
