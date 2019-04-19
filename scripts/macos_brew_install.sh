@@ -9,6 +9,9 @@ brew tap caskroom/cask
 brew install ack
 brew install bash-completion
 brew install coreutils
+brew install docker-completion
+brew install docker-compose-completion
+brew install docker-machine-completion
 brew install findutils
 brew install gawk
 brew install git
