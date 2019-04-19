@@ -77,7 +77,7 @@ function lint()
       *.bash_history)       echo "file extension not supported"               ;;
       *.bash_*)             shellcheck                                "$1"    ;;
       *.bashrc)             shellcheck                                "$1"    ;;
-      *.json)               jsonlint                                  "$1"    ;;
+      *.json)               jsonlint -q                               "$1"    ;;
       *.sh)                 shellcheck                                "$1"    ;;
       *.yaml)               yamllint                                  "$1"    ;;
       *.yml)                yamllint                                  "$1"    ;;
