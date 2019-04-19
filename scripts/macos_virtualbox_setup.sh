@@ -18,14 +18,7 @@ cat <<- EOF > "$HOME/Library/VirtualBox/VirtualBox.xml"
 	-->
 	<VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-macosx">
 	  <Global>
-	    <MachineRegistry/>
-	    <NetserviceRegistry>
-	      <DHCPServers>
-	        <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
-	      </DHCPServers>
-	    </NetserviceRegistry>
-	    <SystemProperties defaultMachineFolder="$HOME/.VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" exclusiveHwVirt="false"/>
-	    <USBDeviceFilters/>
+	    <SystemProperties defaultMachineFolder="$HOME/.VirtualBox VMs" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" proxyMode="0" exclusiveHwVirt="false"/>
 	  </Global>
 	</VirtualBox>
 EOF
