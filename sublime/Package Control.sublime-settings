@@ -14,6 +14,9 @@
 		"SaltStack-related syntax highlighting and snippets",
 		"ScrollOffset",
 		"Six",
+		"SublimeLinter",
+		"SublimeLinter-contrib-yamllint",
+		"SublimeLinter-shellcheck",
 		"Terminal"
 	]
 }
