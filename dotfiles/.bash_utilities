@@ -40,6 +40,22 @@ function calculate()
   echo "$@" | bc
 }
 
+function extract()
+{
+  if [ -f "$1" ] ; then
+    case "$1" in
+      *.tar.gz)             tar -xf "$1"                                      ;;
+      *.7z)                 7z x -o${1%.*} "$1" > /dev/null                   ;; # quiet
+      *.gz)                 gunzip -k "$1"                                    ;;
+      *.rar)                unrar x "$1" ${1%.*}/ > /dev/null                 ;; # quiet
+      *.zip)                unzip -q -d ${1%.*} "$1"                          ;;
+      *)                    echo "file extension not supported"               ;;
+    esac
+  else
+    echo "not regular file"
+  fi
+}
+
 function generate-password()
 {
   base64 /dev/random | tr -cd "[:alnum:]" | fold -w "${1:-20}" | head -1
