@@ -37,6 +37,7 @@ brew install vagrant-completion
 brew install watch
 brew install watchman
 brew install wget
+brew install wine
 brew install yamllint
 brew install yle-dl
 brew install youtube-dl
