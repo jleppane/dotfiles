@@ -24,6 +24,7 @@ brew install htop
 brew install jq
 brew install jsonlint
 brew install node
+brew install nvm
 brew install libav # youtube-mp3
 brew install p7zip
 brew install packer
