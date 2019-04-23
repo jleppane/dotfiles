@@ -37,6 +37,8 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
   alias preview="open -a preview"
   alias vivaldi="open -a vivaldi"
 
+  alias todo='subl -a $HOME/Documents/TODO.txt'
+
   alias md="macdown"
   alias s="subl -a"
 
