@@ -23,6 +23,7 @@ brew install hg
 brew install htop
 brew install jq
 brew install jsonlint
+brew install kustomize
 brew install node
 brew install nvm
 brew install libav # youtube-mp3
