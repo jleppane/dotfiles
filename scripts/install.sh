@@ -12,6 +12,7 @@ if [[ "$OSTYPE" == "darwin"* ]] ; then
 
   . "$SCRIPTS_PATH/macos_bash_setup.sh"
   . "$SCRIPTS_PATH/macos_iterm_setup.sh"
+  . "$SCRIPTS_PATH/macos_kubernetes-cli_setup.sh"
   . "$SCRIPTS_PATH/macos_misc_setup.sh"
   . "$SCRIPTS_PATH/macos_sublime_setup.sh"
   . "$SCRIPTS_PATH/macos_vim_setup.sh"
