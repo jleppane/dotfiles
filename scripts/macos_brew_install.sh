@@ -34,6 +34,7 @@ brew install protobuf
 brew install shellcheck
 brew install terminal-notifier
 brew install thefuck
+brew install tree
 brew install unrar
 brew install vagrant-completion
 brew install watch
