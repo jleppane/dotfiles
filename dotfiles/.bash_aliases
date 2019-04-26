@@ -26,6 +26,7 @@ alias ln="ln -i"
 alias mv="mv -i"
 alias rm="rm -Id"
 
+alias hexdump="hexdump -C"
 
 ### macOS specific aliases #########################################################################
 
