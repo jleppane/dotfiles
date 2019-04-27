@@ -33,6 +33,7 @@ brew install packer-completion
 brew install protobuf
 brew install shellcheck
 brew install terminal-notifier
+brew install terraform
 brew install thefuck
 brew install tree
 brew install unrar
