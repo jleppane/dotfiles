@@ -20,3 +20,7 @@ git clone ssh://git@github.com/jleppane/dotfiles.git "$HOME/Development/jleppane
 
 - [LastPass: Free Password Manager](https://chrome.google.com/webstore/search/lastpass)
 - [uBlock Origin](https://chrome.google.com/webstore/search/ublock)
+
+## Miscellaneous software
+
+- [Line 6 Workbench HD](https://line6.com/software/readeula.html?rid=8824)
