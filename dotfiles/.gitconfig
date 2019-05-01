@@ -1,6 +1,10 @@
 [user]
 name = Juhani Leppänen
 email = juhani.leppanen@protonmail.com
+signingkey = 4C22FC1A816DF92A7683B46B4B4BA780DB4CA18F
 
 [core]
 excludesfile = ~/.gitignore
+
+[commit]
+gpgsign = true
