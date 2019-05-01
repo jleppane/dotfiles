@@ -54,6 +54,7 @@ brew cask install gimp
 brew cask install gitup
 brew cask install google-chrome
 brew cask install google-cloud-sdk
+brew cask install gpg-suite-no-mail
 brew cask install iterm2
 brew cask install java
 brew cask install libreoffice
