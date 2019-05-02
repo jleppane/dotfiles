@@ -23,4 +23,4 @@ git clone ssh://git@github.com/jleppane/dotfiles.git "$HOME/Development/jleppane
 
 ## Miscellaneous software
 
-- [Line 6 Workbench HD](https://line6.com/software/readeula.html?rid=8824)
+- [Line 6 POD HD500X Edit](https://line6.com/software/readeula.html?rid=8552)
