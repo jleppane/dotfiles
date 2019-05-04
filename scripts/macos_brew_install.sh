@@ -7,6 +7,7 @@ fi
 brew tap caskroom/cask
 
 brew install ack
+brew install ansible
 brew install bash-completion
 brew install coreutils
 brew install docker-completion
