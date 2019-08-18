@@ -15,7 +15,7 @@ fi
 
 # create symbolic link
 if [ ! -h "$HOME/Library/Application Support/Sublime Text 3/Packages/User" ] ; then
-  ln -s "$DOTFILES_ROOT/sublime" \
+  ln -sf "$DOTFILES_ROOT/sublime" \
     "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 fi
 
