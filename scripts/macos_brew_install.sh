@@ -47,6 +47,7 @@ brew install yamllint
 brew install yle-dl
 brew install youtube-dl
 
+brew cask install blender
 brew cask install cheatsheet
 brew cask install coconutbattery
 brew cask install docker
