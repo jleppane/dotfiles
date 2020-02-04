@@ -33,7 +33,6 @@ brew install libav # youtube-mp3
 brew install p7zip
 brew install packer
 brew install packer-completion
-brew install protobuf
 brew install shellcheck
 brew install terminal-notifier
 brew install terraform
