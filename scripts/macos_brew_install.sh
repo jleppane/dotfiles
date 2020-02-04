@@ -65,6 +65,7 @@ brew cask install macdown
 brew cask install postman
 brew cask install sequel-pro
 brew cask install shotcut
+brew cask install skype-for-business
 brew cask install slack
 brew cask install spotify
 brew cask install sublime-text
