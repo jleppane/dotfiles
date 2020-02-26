@@ -1,6 +1,6 @@
 # jleppane/dotfiles
 
-My personal dotfiles, utilities, settings and install scripts for `macOS Mojave`.
+My personal dotfiles, utilities, settings and install scripts for `macOS Catalina`.
 
 ## Dependencies
 
