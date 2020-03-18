@@ -65,6 +65,7 @@ brew cask install java
 brew cask install libreoffice
 brew cask install macdown
 brew cask install musescore
+brew cask install mysqlworkbench
 brew cask install postman
 brew cask install sequel-pro
 brew cask install shotcut
