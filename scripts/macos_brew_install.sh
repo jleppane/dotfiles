@@ -64,6 +64,7 @@ brew cask install iterm2
 brew cask install java
 brew cask install libreoffice
 brew cask install macdown
+brew cask install macpass
 brew cask install musescore
 brew cask install mysqlworkbench
 brew cask install postman
