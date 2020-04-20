@@ -67,6 +67,7 @@ brew cask install macdown
 brew cask install macpass
 brew cask install musescore
 brew cask install mysqlworkbench
+brew cask install opera
 brew cask install postman
 brew cask install sequel-pro
 brew cask install shotcut
