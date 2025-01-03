@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# ls
+alias li='ls -l --group-directories-first --time-style=+"%Y-%m-%d %H:%M:%S"' # 1991-08-25 20:57:08
+alias ll='ls -l --group-directories-first --time-style=+"%Y %b %d %H:%M:%S"' # 1991 Aug 25 20:57:08
