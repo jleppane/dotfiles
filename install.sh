@@ -6,6 +6,7 @@ if ! command -v brew > /dev/null ; then
 fi
 
 # GUI
+brew install --cask docker
 brew install iterm2
 brew install topnotch
 brew install visual-studio-code
