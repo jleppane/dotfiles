@@ -8,6 +8,7 @@ fi
 # GUI
 brew install --cask docker
 brew install iterm2
+brew install postman
 brew install topnotch
 brew install visual-studio-code
 brew install vivaldi
