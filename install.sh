@@ -7,6 +7,7 @@ fi
 
 # GUI
 brew install --cask docker
+brew install --cask gitup
 brew install iterm2
 brew install postman
 brew install topnotch
