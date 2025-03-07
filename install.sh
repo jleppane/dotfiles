@@ -6,6 +6,7 @@ if ! command -v brew > /dev/null ; then
 fi
 
 # GUI
+brew install --cask beekeeper-studio
 brew install --cask docker
 brew install --cask gitup
 brew install iterm2
