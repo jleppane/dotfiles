@@ -13,6 +13,7 @@ brew install --cask beekeeper-studio
 brew install --cask docker
 brew install --cask gitup
 brew install iterm2
+brew install libreoffice
 brew install macdown
 brew install postman
 brew install topnotch
