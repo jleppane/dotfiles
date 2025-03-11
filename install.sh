@@ -16,6 +16,7 @@ brew install iterm2
 brew install libreoffice
 brew install macdown
 brew install postman
+brew install rectangle
 brew install topnotch
 brew install visual-studio-code
 brew install vivaldi
