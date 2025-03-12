@@ -20,3 +20,7 @@ brew install rectangle
 brew install topnotch
 brew install visual-studio-code
 brew install vivaldi
+
+# CLI
+brew install ansible
+brew install opentofu
