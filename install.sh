@@ -11,6 +11,7 @@ softwareupdate --install-rosetta --agree-to-license
 # GUI
 brew install --cask beekeeper-studio
 brew install --cask docker
+brew install --cask gimp
 brew install --cask gitup
 brew install iterm2
 brew install libreoffice
