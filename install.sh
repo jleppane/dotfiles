@@ -24,4 +24,5 @@ brew install vivaldi
 
 # CLI
 brew install ansible
+brew install node
 brew install opentofu
