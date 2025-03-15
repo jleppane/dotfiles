@@ -26,3 +26,4 @@ brew install vivaldi
 brew install ansible
 brew install node
 brew install opentofu
+brew install shellcheck
