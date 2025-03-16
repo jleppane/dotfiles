@@ -24,6 +24,7 @@ brew install vivaldi
 
 # CLI
 brew install ansible
+brew install azure-cli
 brew install node
 brew install opentofu
 brew install shellcheck
