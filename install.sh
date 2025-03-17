@@ -28,3 +28,5 @@ brew install azure-cli
 brew install node
 brew install opentofu
 brew install shellcheck
+brew install vagrant
+brew install vagrant-vmware-utility
