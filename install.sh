@@ -21,6 +21,7 @@ brew install rectangle
 brew install topnotch
 brew install visual-studio-code
 brew install vivaldi
+brew install vlc
 
 # CLI
 brew install ansible
