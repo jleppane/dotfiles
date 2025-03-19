@@ -26,6 +26,7 @@ brew install vlc
 # CLI
 brew install ansible
 brew install azure-cli
+brew install jq
 brew install node
 brew install opentofu
 brew install shellcheck
