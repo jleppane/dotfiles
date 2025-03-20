@@ -32,3 +32,4 @@ brew install opentofu
 brew install shellcheck
 brew install vagrant
 brew install vagrant-vmware-utility
+brew install watch
