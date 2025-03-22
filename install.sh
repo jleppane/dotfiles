@@ -14,6 +14,7 @@ brew install --cask docker
 brew install --cask gimp
 brew install --cask gitup
 brew install iterm2
+brew install lens
 brew install libreoffice
 brew install macdown
 brew install postman
