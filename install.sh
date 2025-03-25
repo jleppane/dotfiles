@@ -5,9 +5,6 @@ if ! command -v brew > /dev/null ; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# macOS
-softwareupdate --install-rosetta --agree-to-license
-
 # GUI
 brew install --cask beekeeper-studio
 brew install --cask docker
