@@ -7,6 +7,7 @@ fi
 
 # GUI
 brew install --cask beekeeper-studio
+brew install --cask blender
 brew install --cask docker
 brew install --cask firefox@developer-edition
 brew install --cask gimp
