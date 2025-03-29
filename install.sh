@@ -12,6 +12,7 @@ brew install --cask docker
 brew install --cask firefox@developer-edition
 brew install --cask gimp
 brew install --cask gitup
+brew install --cask google-chrome
 brew install iterm2
 brew install lens
 brew install libreoffice
