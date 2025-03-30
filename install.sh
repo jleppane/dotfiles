@@ -29,6 +29,7 @@ brew install vlc
 brew install ansible
 brew install azure-cli
 brew install bash
+brew install coreutils
 brew install jq
 brew install node
 brew install opentofu
