@@ -13,17 +13,17 @@ brew install --cask firefox@developer-edition
 brew install --cask gimp
 brew install --cask gitup
 brew install --cask google-chrome
-brew install iterm2
-brew install lens
-brew install libreoffice
-brew install macdown
-brew install postman
-brew install rectangle
-brew install spotify
-brew install topnotch
-brew install visual-studio-code
-brew install vivaldi
-brew install vlc
+brew install --cask iterm2
+brew install --cask lens
+brew install --cask libreoffice
+brew install --cask macdown
+brew install --cask postman
+brew install --cask rectangle
+brew install --cask spotify
+brew install --cask topnotch
+brew install --cask visual-studio-code
+brew install --cask vivaldi
+brew install --cask vlc
 
 # CLI
 brew install ansible
