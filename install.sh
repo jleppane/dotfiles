@@ -24,6 +24,7 @@ brew install --cask topnotch
 brew install --cask visual-studio-code
 brew install --cask vivaldi
 brew install --cask vlc
+brew install --cask wireshark
 
 # CLI
 brew install ansible
