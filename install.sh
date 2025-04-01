@@ -35,6 +35,7 @@ brew install jq
 brew install node
 brew install opentofu
 brew install shellcheck
+brew install thefuck
 brew install tree
 brew install vagrant
 brew install vagrant-vmware-utility
