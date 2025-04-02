@@ -1,0 +1,4 @@
+# ls
+alias ls='ls --color'
+alias li='ls -l --group-directories-first --time-style=+"%Y-%m-%d %H:%M:%S"'
+alias ll='ls -l --group-directories-first --time-style=+"%Y %b %d %H:%M:%S"'
