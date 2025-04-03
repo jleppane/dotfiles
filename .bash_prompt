@@ -1,0 +1,23 @@
+function _PS1_directory()
+{
+  local directory=$(echo -n "$PWD" | awk -F "/" '{ if (NF > 3) print "../" $(NF-1) "/" $(NF); else print $0 }')
+  echo "${BLUE}$directory${NORMAL}"
+}
+
+function _PS1_branch()
+{
+  git branch &> /dev/null && _PS1_parse_git_branch
+}
+
+function _PS1_parse_git_branch()
+{
+  if [[ $(git branch) ]] ; then
+    local branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
+  else
+    local branch="main"
+  fi
+
+  echo -n "${RED}($branch)${NORMAL} "
+}
+
+PS1='${GREEN}\u@\h: $(_PS1_directory) $(_PS1_branch)$ '

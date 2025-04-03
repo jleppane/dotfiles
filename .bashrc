@@ -8,4 +8,6 @@ eval $(thefuck --alias)
 PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 # include .bash_*
-[ -f "$HOME/.bash_alias" ] && . "$HOME/.bash_alias"
+[ -f "$HOME/.bash_alias" ]  && . "$HOME/.bash_alias"
+[ -f "$HOME/.bash_color" ]  && . "$HOME/.bash_color"
+[ -f "$HOME/.bash_prompt" ] && . "$HOME/.bash_prompt"
