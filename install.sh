@@ -40,3 +40,4 @@ brew install tree
 brew install vagrant
 brew install vagrant-vmware-utility
 brew install watch
+brew install watchman
